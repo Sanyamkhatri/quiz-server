@@ -20,7 +20,7 @@ app.use(cookieParser())
 
 app.use(
   cors({
-    origin: `http://localhost:3004`,
+    origin: `https://quiz-client-tan.vercel.app`,
     credentials: true,
   })
 );
